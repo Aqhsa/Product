@@ -15,8 +15,8 @@ public class ConnectionDB {
 			try {
 				 Class.forName("com.mysql.cj.jdbc.Driver");//drive support sets up
 				 
-		         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/AR",
-		            "root", "m&A1016;@awm");
+		         connection = DriverManager.getConnection("datapath
+		            "root", "");
 			}
 			catch(Exception E) {
 				
